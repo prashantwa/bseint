@@ -1,0 +1,27 @@
+<!--
+  @description       : 
+  @author            : Prashant Wayal
+  @group             : 
+  @last modified on  : 02-11-2022
+  @last modified by  : Prashant Wayal
+-->
+<template>
+    <template if:true={showSpinner}>
+      <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </template>
+    <template if:false={showSpinner}>
+      <lightning-card  title="Stocks">
+        <lightning-combobox
+          name="stocks"
+          label="Select Stock"
+          value={value}
+          placeholder="Select Stock"
+          options={options}
+          onchange={handleChange} style="width: 200px;text-align: center;"></lightning-combobox>
+      </lightning-card>
+      
+
+      
+    </template>
+    <div id="container" lwc:dom="manual" class="container"></div>  
+</template>

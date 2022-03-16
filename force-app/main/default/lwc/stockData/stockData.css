@@ -1,0 +1,12 @@
+.container {
+    height: 400px;
+    min-width: 310px;
+    padding-top: 10px;
+}
+
+.spinnerHolder{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
