@@ -1,18 +1,10 @@
-# Salesforce DX Project: Next Steps
+Below is the screenshot of the outcome of this project.
+1. Default Screen
+![image](https://user-images.githubusercontent.com/10544320/158510253-fc2d9eff-dd99-41e3-8ed3-2c4b8c5c0b64.png)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+2. Changing Stock will fetch the new data
+![image](https://user-images.githubusercontent.com/10544320/158510349-2e7e74d4-a51a-4041-bba0-89807a0873ed.png)
 
-## How Do You Plan to Deploy Your Changes?
+3. Stock data for new stock
+![image](https://user-images.githubusercontent.com/10544320/158510409-6b548a94-74ca-40bf-8b2b-a97332017a41.png)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
